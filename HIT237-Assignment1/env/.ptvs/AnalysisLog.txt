@@ -3683,3 +3683,11 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extens
 2018-03-24T11:39:38: Saving group "c:\users\joshua.bauer\source\repos\hit237-assignment1\hit237-assignment1\env\lib\site-packages\pytz"
 2018-03-24T11:39:38: End of group "c:\users\joshua.bauer\source\repos\hit237-assignment1\hit237-assignment1\env\lib\site-packages\pytz"
 2018-03-24T11:39:40: Deleting 0 files
+
+2018-03-24T12:44:01: Start analysis
+2018-03-24T12:44:01: IncludeModulesFromModulePath = win32com
+2018-03-24T12:44:02: Deleting 0 files
+
+2018-03-24T13:04:59: Start analysis
+2018-03-24T13:05:00: IncludeModulesFromModulePath = win32com
+2018-03-24T13:05:01: Deleting 0 files

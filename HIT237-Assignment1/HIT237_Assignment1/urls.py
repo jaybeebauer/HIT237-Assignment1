@@ -3,6 +3,7 @@ Definition of urls for HIT237_Assignment1.
 """
 
 from django.conf.urls import include, url
+from books_repo import views
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -18,4 +19,6 @@ urlpatterns = [
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
+
+    url(r'^$', views.home, name='home'),
 ]
