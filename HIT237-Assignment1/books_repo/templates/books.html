@@ -1,0 +1,18 @@
+﻿{% extends "base.html" %}
+
+{% block main_body %}
+
+    {% if book_list %}
+    <ul>
+
+      {% for book in book_list %}
+      <li>
+        <a href="/{% url 'books' %}{{ book.id }}">{{ book.title }}</a> ({{book.author}})
+      </li>
+      {% endfor %}
+
+    </ul>
+    {% else %}
+      <p>Sorry, there appears to be no books in the catalogue.</p>
+    {% endif %}       
+{% endblock %}
