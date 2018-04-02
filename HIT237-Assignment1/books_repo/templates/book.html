@@ -1,0 +1,18 @@
+﻿{% extends "base.html" %}
+
+{% block main_body %}
+
+    {% if book %}
+    <h2>{{ book.title }}</h2>
+    <table>
+      <tr>
+        <td>Author</td>
+        <td>{{ book.author }}</td>
+      </tr>
+    </table>
+
+        
+    {% else %}
+      <p>There appears to be a problem, we can't find that book.</p>
+    {% endif %}       
+{% endblock %}

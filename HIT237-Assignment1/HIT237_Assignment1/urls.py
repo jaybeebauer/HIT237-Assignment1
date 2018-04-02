@@ -22,4 +22,5 @@ urlpatterns = [
 
     url(r'^$', views.home, name='home'),
     url(r'^books$', views.books, name='books'),
+    url(r'^book/(\d{1,1})/?$', views.single_book, name='book'),
 ]

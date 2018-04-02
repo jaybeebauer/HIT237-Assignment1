@@ -56,8 +56,10 @@
     <Content Include="books_repo\static\js\vendor\modernizr-3.5.0.min.js" />
     <Content Include="books_repo\templates\404.html" />
     <Content Include="books_repo\templates\base.html" />
+    <Content Include="books_repo\templates\book.html" />
     <Content Include="books_repo\templates\books.html" />
     <Content Include="books_repo\templates\browserconfig.xml" />
+    <Content Include="books_repo\templates\datamodel.html" />
     <Content Include="books_repo\templates\humans.txt" />
     <Content Include="books_repo\templates\index_old.html" />
     <Content Include="books_repo\templates\robots.txt" />
