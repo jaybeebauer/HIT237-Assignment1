@@ -61,7 +61,6 @@
     <Content Include="books_repo\templates\browserconfig.xml" />
     <Content Include="books_repo\templates\datamodel.html" />
     <Content Include="books_repo\templates\humans.txt" />
-    <Content Include="books_repo\templates\index_old.html" />
     <Content Include="books_repo\templates\robots.txt" />
     <Content Include="requirements.txt" />
   </ItemGroup>

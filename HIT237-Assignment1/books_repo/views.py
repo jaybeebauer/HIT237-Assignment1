@@ -24,6 +24,9 @@ class Book:
         self.title = title
         self.isbn = isbn
         self.author = author
+        self.genre = genre
+        self.publisher = publisher
+        self.summary = summary
 
 def get_books():
     booklist = []
