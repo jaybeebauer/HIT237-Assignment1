@@ -8,6 +8,9 @@ def books(request):
     page_data = {'book_list': get_books() }
     return render(request, 'books.html', page_data)
 
+def datamodel(request):
+    return render(request, 'datamodel.html')
+
 def single_book(request, id):
     id = int(id)
     books = get_books()
