@@ -22,6 +22,6 @@ urlpatterns = [
 
     url(r'^$', views.home, name='home'),
     url(r'^books/?$', views.books, name='books'),
-    url(r'^book/(\d{1,1})/?$', views.single_book, name='book'),
+    url(r'^book/(\d{1,4})/?$', views.single_book, name='book'),
     url(r'^datamodel/?$', views.datamodel, name='datamodel'),
 ]
