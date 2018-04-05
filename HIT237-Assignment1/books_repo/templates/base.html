@@ -19,25 +19,34 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        
-        <header>
-            {% block page_heading_title %}<h1>Books Catalogue Website</h1>{% endblock %}
-            <nav>
-                <a href="{% url 'home' %}">Home</a>
-                <a href="{% url 'books' %}">Books List</a>
-                <a href="{% url 'datamodel' %}">Data Model</a>
-            </nav>
-        </header>
-        
-
+        <div class="container fontcolour">
+            <header>
+      {% block page_heading_title %}<h1 class="header__text">Books Catalogue Website</h1>{% endblock %}
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--current"><a href="{% url 'home' %}" class="nav__link">Home</a>
+            <li class="nav__item"><a href="{% url 'books' %}" class="nav__link">Book List</a>
+              <li class="nav__item"><a href="{% url 'datamodel' %}" class="nav__link">Data Model</a>
+        </ul>
+      </nav>
+    </header>
+         <main>
+      <section>
         {% block main_body %}
+        <h2 class="heading2">Website Purpose</h2>
         <p>Welcome to my Book Catalogue website.</p>
         <p>My name is Joshua Bauer (S263364).</p>
         <p>I chose to do my assignment on books as I love reading, and would like to share my list of books with you.</p>
         {% endblock %}
+      </section>
+    </main>
+
+        
 
         <footer class="footer">
+      <div class="footer__text">
             <p>&copy; 2018 Charles Darwin University  --  HIT237 Assignment 1 --  S263364 Joshua Bauer</p>
+         </div>
         </footer>
 
         <!--Javascrip includes-->
@@ -46,6 +55,6 @@
         <script>window.jQuery || document.write('<script src="{% static 'js/vendor/jquery-3.2.1.min.js' %}"><\/script>')</script>
         <script src="{% static 'js/plugins.js' %}"></script>
         <script src="{% static 'js/main.js' %}"></script>
-
+        </div>
     </body>
 </html>

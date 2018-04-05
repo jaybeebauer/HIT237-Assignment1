@@ -1,0 +1,27 @@
+/*------------------
+Header style
+------------------*/
+
+.header__text {
+  margin: 0px;
+  padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+  background: #4C4F5D;
+  color: #E5E7E8;
+}
+
+/* -----------------------
+Wide styles
+------------------------*/
+
+@media (min-width: 670px)
+{
+	.header__text {
+    padding-top: 16px;
+		padding-bottom: 16px;
+		padding-left: 20px;
+		padding-right: 20px;
+  }
+}

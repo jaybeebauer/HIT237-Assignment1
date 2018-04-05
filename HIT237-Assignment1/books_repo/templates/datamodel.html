@@ -2,71 +2,73 @@
 
 {% block page_title %}Books Catalogue - Data Model{% endblock %}
 
-{% block page_heading_title %}<h1>Books Catalogue - Data Model</h1>{% endblock %}
+{% block page_heading_title %}<h1 class="header__text">Books Catalogue - Data Model</h1>{% endblock %}
 
 
 {% block main_body %}
 
-    <p>    </p>
-        <table>
-            <thead>
+   <h2 class="heading2">Model Table</h2>
+        <table class="table">
+            <thead class="table__head">
                 <tr>
-                    <th>Attribute Name</th>
-                    <th>Description</th>
-                    <th>Type</th>
-                    <th>Size</th>
-                    <th>Contraint</th>
+                    <th class="table__item">Attribute Name</th>
+                    <th class="table__item">Description</th>
+                    <th class="table__item">Type</th>
+                    <th class="table__item">Size</th>
+                    <th class="table__item">Contraint</th>
                 </tr>
             </thead>
+            <tbody>
             <tr>
-                <td>ID</td>
-                    <td>Assign a unique indentifer to each catalogue item</td>
-                    <td>Numeric</td>
-                    <td>4</td>
-                    <td>Primary Key</td>
+                <td class="table__item">ID</td>
+                    <td class="table__item">Assign a unique indentifer to each catalogue item</td>
+                    <td class="table__item">Numeric</td>
+                    <td class="table__item">4</td>
+                    <td class="table__item">Primary Key</td>
             </tr>
             <tr>
-                <td>Title</td>
-                    <td>This is the name of the book</td>
-                    <td>String</td>
-                    <td>100</td>
-                    <td>Not Null</td>
+                <td class="table__item">Title</td>
+                    <td class="table__item">This is the name of the book</td>
+                    <td class="table__item">String</td>
+                    <td class="table__item">100</td>
+                    <td class="table__item">Not Null</td>
             </tr>
             <tr>
-                <td>ISBN</td>
-                    <td>International Standard Book Number given to each book to reference against global databank</td>
-                    <td>Numeric</td>
-                    <td>13</td>
-                    <td>Validated</td>
+                <td class="table__item">ISBN</td>
+                    <td class="table__item">International Standard Book Number given to each book to reference against global databank</td>
+                    <td class="table__item">Numeric</td>
+                    <td class="table__item">13</td>
+                    <td class="table__item">Validated</td>
             </tr>
             <tr>
-                <td>Author</td>
-                    <td>This is the author of the book</td>
-                    <td>String</td>
-                    <td>50</td>
-                    <td>Not Null</td>
+                <td class="table__item">Author</td>
+                    <td class="table__item">This is the author of the book</td>
+                    <td class="table__item">String</td>
+                    <td class="table__item">50</td>
+                    <td class="table__item">Not Null</td>
             </tr>
             <tr>
-                <td>Genre</td>
-                    <td>This is the genre of the book</td>
-                    <td>String</td>
-                    <td>50</td>
-                    <td>Not Null</td>
+                <td class="table__item">Genre</td>
+                    <td class="table__item">This is the genre of the book</td>
+                    <td class="table__item">String</td>
+                    <td class="table__item">50</td>
+                    <td class="table__item">Not Null</td>
             </tr>
             <tr>
-                <td>Publisher</td>
-                    <td>This is the publisher of the book</td>
-                    <td>String</td>
-                    <td>50</td>
-                    <td>Not Null</td>
+                <td class="table__item">Publisher</td>
+                    <td class="table__item">This is the publisher of the book</td>
+                    <td class="table__item">String</td>
+                    <td class="table__item">50</td>
+                    <td class="table__item">Not Null</td>
             </tr>
             <tr>
-                <td>Summary</td>
-                    <td>This is a short discription of the book</td>
-                    <td>Text</td>
-                    <td>250</td>
-                    <td>Not Null</td>
+                <td class="table__item">Summary</td>
+                    <td class="table__item">This is a short discription of the book</td>
+                    <td class="table__item">Text</td>
+                    <td class="table__item">250</td>
+                    <td class="table__item">Not Null</td>
             </tr>
+           </tbody>
         </table>
               
 {% endblock %}

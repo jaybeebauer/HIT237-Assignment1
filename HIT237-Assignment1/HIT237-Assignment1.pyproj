@@ -47,8 +47,25 @@
     <Compile Include="HIT237_Assignment1\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="books_repo\static\css\lib\accessibility.css" />
+    <Content Include="books_repo\static\css\lib\base.css" />
+    <Content Include="books_repo\static\css\lib\blockquote.css" />
+    <Content Include="books_repo\static\css\lib\card.css" />
+    <Content Include="books_repo\static\css\lib\colour.css" />
+    <Content Include="books_repo\static\css\lib\footer.css" />
+    <Content Include="books_repo\static\css\lib\form.css" />
+    <Content Include="books_repo\static\css\lib\header.css" />
+    <Content Include="books_repo\static\css\lib\jumbotron.css" />
+    <Content Include="books_repo\static\css\lib\nav.css" />
+    <Content Include="books_repo\static\css\lib\search.css" />
+    <Content Include="books_repo\static\css\lib\table.css" />
+    <Content Include="books_repo\static\css\lib\toggle.css" />
+    <Content Include="books_repo\static\css\lib\typography.css" />
     <Content Include="books_repo\static\css\main.css" />
+    <Content Include="books_repo\static\css\main_old.css" />
     <Content Include="books_repo\static\css\normalize.css" />
+    <Content Include="books_repo\static\css\vendor\browserupgrade.css" />
+    <Content Include="books_repo\static\css\vendor\normalize.css" />
     <Content Include="books_repo\static\img\favicon.ico" />
     <Content Include="books_repo\static\img\icon.png" />
     <Content Include="books_repo\static\img\tile-wide.png" />
@@ -72,6 +89,8 @@
     <Folder Include="books_repo\migrations\" />
     <Folder Include="books_repo\static\" />
     <Folder Include="books_repo\static\css\" />
+    <Folder Include="books_repo\static\css\lib\" />
+    <Folder Include="books_repo\static\css\vendor\" />
     <Folder Include="books_repo\static\img\" />
     <Folder Include="books_repo\static\js\" />
     <Folder Include="books_repo\static\js\vendor\" />
