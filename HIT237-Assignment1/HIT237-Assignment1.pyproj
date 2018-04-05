@@ -32,6 +32,9 @@
   <ItemGroup>
     <Compile Include="books_repo\admin.py" />
     <Compile Include="books_repo\apps.py" />
+    <Compile Include="books_repo\book.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="books_repo\migrations\__init__.py" />
     <Compile Include="books_repo\models.py" />
     <Compile Include="books_repo\tests.py" />
