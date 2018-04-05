@@ -8,4 +8,3 @@ class book(object):
         self.genre = genre
         self.publisher = publisher
         self.summary = summary
-
