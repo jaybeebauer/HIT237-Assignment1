@@ -24,9 +24,12 @@
       {% block page_heading_title %}<h1 class="header__text">Books Catalogue Website</h1>{% endblock %}
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item nav__item--current"><a href="{% url 'home' %}" class="nav__link">Home</a>
-            <li class="nav__item"><a href="{% url 'books' %}" class="nav__link">Book List</a>
-              <li class="nav__item"><a href="{% url 'datamodel' %}" class="nav__link">Data Model</a>
+            {% url 'home' as home_url %}
+            {% url 'books' as books_url %}
+            {% url 'datamodel' as datamodel_url %}
+          <li {% if request.get_full_path == home_url %}class="nav__item nav__item--current"{% else %}class="nav__item"{% endif %} ><a href="{% url 'home' %}" class="nav__link">Home</a>     
+            <li {% if request.get_full_path == books_url %}class="nav__item nav__item--current"{% else %}class="nav__item"{% endif %} ><a href="{% url 'books' %}" class="nav__link">Book List</a>
+              <li {% if request.get_full_path == datamodel_url %}class="nav__item nav__item--current"{% else %}class="nav__item"{% endif %} ><a href="{% url 'datamodel' %}" class="nav__link">Data Model</a>
         </ul>
       </nav>
     </header>
