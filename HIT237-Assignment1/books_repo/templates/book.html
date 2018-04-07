@@ -8,26 +8,26 @@
 
     {% if book %}
     <h2 class="heading2">{{ book.title }}</h2>
-    <table>
+    <table class="table">
       <tr>
-        <th>Author</th>
-        <td>{{ book.author }}</td>
+        <th class="table__item">Author</th>
+        <td class="table__item">{{ book.author }}</td>
       </tr>
       <tr>
-        <th>ISBN</th>
-        <td>{{ book.isbn }}</td>
+        <th class="table__item">ISBN</th>
+        <td class="table__item">{{ book.isbn }}</td>
       </tr>
         <tr>
-        <th>Genre</th>
-        <td>{{ book.genre }}</td>
+        <th class="table__item">Genre</th>
+        <td class="table__item">{{ book.genre }}</td>
       </tr>
         <tr>
-        <th>Publisher</th>
-        <td>{{ book.publisher }}</td>
+        <th class="table__item">Publisher</th>
+        <td class="table__item">{{ book.publisher }}</td>
       </tr>
         <tr>
-        <th>Summary</th>
-        <td>{{ book.summary }}</td>
+        <th class="table__item">Summary</th>
+        <td class="table__item">{{ book.summary }}</td>
       </tr>
     </table>
 
